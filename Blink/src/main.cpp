@@ -1,7 +1,7 @@
-#include <Arduino.h>                // Include the Arduino library functions
+#include <Arduino.h> // Include the Arduino library functions
 
 // put function declarations here:
-#define LED 12                      // Pin number of the LED
+#define LED 12 // Pin number of the LED
 
 void setup()
 {
@@ -14,10 +14,10 @@ void setup()
 void loop()
 {
   // put your main code here, to run repeatedly:
-  digitalWrite(LED, HIGH);          // Turn the LED on by setting the pin voltage output to HIGH
-  Serial.println("LED on");         // Troubleshooting message to indicate that the LED should be on
-  delay(1000);                      // Wait for 1 second (1000 milliseconds)
-  digitalWrite(LED, LOW);           // Turn the LED off by setting the pin voltage output to LOW
-  Serial.println("LED off");        // Troubleshooting message to indicate that the LED should be off
-  delay(1000);                      // Wait for 1 second (1000 milliseconds)
+  digitalWrite(LED, HIGH);   // Turn the LED on by setting the pin voltage output to HIGH
+  Serial.println("LED on");  // Troubleshooting message to indicate that the LED should be on
+  delay(1000);               // Wait for 1 second (1000 milliseconds)
+  digitalWrite(LED, LOW);    // Turn the LED off by setting the pin voltage output to LOW
+  Serial.println("LED off"); // Troubleshooting message to indicate that the LED should be off
+  delay(1000);               // Wait for 1 second (1000 milliseconds)
 }
